@@ -63,7 +63,7 @@ body {
 }
 #githubLink a {
     font-family:'Times New Roman', Times, serif;
-    margin-left: 3px;
+    /* margin-left: 3px; */
     font-size: 20px;
     text-decoration: none;
 }
