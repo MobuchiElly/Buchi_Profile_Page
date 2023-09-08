@@ -1,0 +1,124 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(241, 240, 240);
+}
+.flex-container {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 98vw;
+    height: 90vh;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+.header-design {
+    width: 100vw;
+    background-color: rgb(227, 174, 109);
+    height: 20vh;
+    position: absolute;
+    top:0;
+    z-index: -1;
+}
+
+.main-section{
+    position: absolute;
+    top: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-end;
+    align-items:flex-start;
+    padding-bottom: 20px;
+}
+.info-section {
+    position: relative;
+    top: 60px;
+}
+.info-section h1 {
+    font-family:sans-serif;
+    font-size: 35px;
+    font-weight:700;
+    padding-bottom: 20px;
+}
+#track p {
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 3px;
+    font-size: 20px;
+    font-weight:300;
+    padding-bottom: 20px;
+}
+#githubLink {
+    position: relative;
+    top: 50px;
+    height: 10px;
+}
+#githubLink a {
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 3px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#githubLink a:hover {
+    color:blue;
+    text-decoration:underline;
+}
+
+.img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 50vh;
+    /* padding:0;
+    margin: 0; */
+    background: repeating-linear-gradient(45deg, #fffcfaa5 0%,#fffcfaa5 1%, transparent 1%, transparent 2%);
+} 
+
+.img-div #myImg {
+    max-width :100%;
+    max-height: 90%;
+    width:auto; 
+    height:auto;
+    border-radius: 10px;
+}
+
+.footer-section{
+    /* position: absolute; */
+    bottom:40px;
+    /* left: 25px; */
+    padding: 0 0 15px 32px;
+}
+.footer-section #weekDay {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.footer-section #utcTime {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* @media (max-width: 768px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  
+    #githubLink {
+      top: 0;
+      margin-top: 20px;
+    }
+  } */
+  
